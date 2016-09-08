@@ -10,7 +10,7 @@
 
 do
     
-local function axis(msg,matches)
+local function run(msg,matches)
     if matches[1] == "chat_add_user"  then 
      local text = ' اهلا بك في المجموعه كبد حياتي 🙈💋'..'\n'..'\n'
     ..'🔸 اسمك :  '..msg.action.user.print_name..'\n'
@@ -49,6 +49,6 @@ return {
         "^!!tgservice (chat_del_user)$"
         
     },
- run = axis
+ run = run
 }
 end
