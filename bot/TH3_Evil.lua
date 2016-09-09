@@ -257,7 +257,6 @@ function create_config( )
     "en_version",
     "replay",
     "ar-supergroup",
-    "kickme",
 
     },
     sudo_users = {113644348},--Sudo users
