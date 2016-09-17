@@ -1,12 +1,12 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY SAJJAD HUSSIEN                 ▀▄ ▄▀ 
-▀▄ ▄▀   BY SAJJADHUSSIEN   (@TH3_Evil)     ▀▄ ▄▀    
-▀▄ ▄  JUST WRITED BY SAJJAD HUSSIEN        ▀▄ ▄▀ 
-▀▄ ▄▀           مساعدة4                    ▀▄ ▄▀ 
+▀▄ ▄▀    BY @sadikal_knani10                 ▀▄ ▄▀ 
+▀▄ ▄▀   BY @illOlli   (@kingtele1)     ▀▄ ▄▀    
+▀▄ ▄  JUST WRITED BY sadik        ▀▄ ▄▀ 
+▀▄ ▄▀            مساعدة 1                  ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
---]]
+--]] 
 do
 
 function run(msg, matches)
@@ -24,9 +24,9 @@ local S = [[
 ✴️ الصور المتحركه: 👈 (التحكم بالصور المتحركه داخل المجموعه)
 
 〰️〰️〰️〰️〰️〰️〰️〰️〰️
--🔧 DEV 👹: @TH3_Evil
--🔧 channel 👹: @TH3Evil_iq
--🔧 DEV BOT 👹: @sajjad_aliraqi_bot
+-🔧 DEV 1 : @sadikal_knani10
+-🔧 DEV 2 : @illOlli
+-🔧 DEV CH👹: @KINGTELE1 
  ]]
 reply_msg(reply_id, S, ok_cb, false)
 end
