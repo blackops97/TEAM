@@ -1,5 +1,5 @@
 do local _ = {
-about_text = "🔸Welcome to TH3_Evil v5.0 For more information Subscribe to the channel @TH3Evil_iqn\n https://github.com/blackops97/TH3_Evil\n\n🔸Dev @TH3_Evil\n\n🔸 Dev Bot @sajjad_aliraqi\n\n🔸Dev channel @TH3Evil_iq",
+about_text = "🔸Welcome to KING_TELE",
   enabled_plugins = {
  "admin",
     "all",
@@ -25,15 +25,14 @@ about_text = "🔸Welcome to TH3_Evil v5.0 For more information Subscribe to the
     "leave_ban",
     "msg_checks",
     "newgroup",
-    "@TH3_Evil",
-    "TH3_Evil",
-    "TH3_Evil1",
-    "TH3_Evil2",
-    "TH3_Evil3",
-    "TH3_Evil4",
-    "TH3_Evil5",
-    "TH3_Evil6",
-    "TH3_Evil7",
+    "@kingtete1",
+    "ardevs",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "hsudo",
+    "endevs",
     "owners",
     "set",
     "stats",
@@ -54,8 +53,8 @@ about_text = "🔸Welcome to TH3_Evil v5.0 For more information Subscribe to the
     data = "data/moderation.json"
   },
   sudo_users = {
-    113644348,
-    0,
+    241857359,
+    55197430,
   }
 }
 return _
