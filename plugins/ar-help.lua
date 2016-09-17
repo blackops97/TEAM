@@ -17,9 +17,9 @@ function run(msg, matches)
 ♻️ م المطور: اوامر المطور ♻️
 
 🌐▶️〰️〰️〰️〰️〰️◀️🌐
--🔧 DEV 👹: @TH3_Evil
--🔧 channel 👹: @TH3Evil_iq
--🔧 DEV BOT 👹: @sajjad_aliraqi_bot
+-🔧 DEV 👹: @illOlli
+-??DEV?? :@Sadikal_knani10 
+-🔧 channel 👹:KINGTELE1
 ]] 
 
 end 
