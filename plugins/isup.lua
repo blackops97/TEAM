@@ -1,12 +1,3 @@
---[[ 
-▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀          
-▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ ▄▀    BY SAJJAD HUSSIEN                 ▀▄ ▄▀ 
-▀▄ ▄▀   BY SAJJADHUSSIEN   (@TH3_Evil)     ▀▄ ▄▀    
-▀▄ ▄  JUST WRITED BY SAJJAD HUSSIEN        ▀▄ ▄▀ 
-▀▄ ▄▀    isup  : ضد توقف البوت             ▀▄ ▄▀ 
-▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀
---]]
 do
 local socket = require("socket")
 local cronned = load_from_file('data/isup.lua')
