@@ -2,7 +2,7 @@ do
 
 function run(msg, matches) 
   return [[ 
-مرحبا بكم في بوت ايذل
+  مرحبــا بكم في بوت ملك التلي
 الاوامر الاساسيه التي تحتاجها
 🌐▶️〰️〰️〰️〰️〰️◀️🌐
 
@@ -19,7 +19,7 @@ function run(msg, matches)
 🌐▶️〰️〰️〰️〰️〰️◀️🌐
 -🔧 DEV 👹: @illOlli
 -??DEV?? :@Sadikal_knani10 
--🔧 channel 👹:KINGTELE1
+- ❇cha ;- @kingtele1
 ]] 
 
 end 
