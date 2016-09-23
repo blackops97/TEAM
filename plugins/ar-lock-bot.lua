@@ -42,11 +42,11 @@ local function run (msg, matches)
   local chatId = msg.to.id
   if matches[1] == 'قفل البوتات' then
     enableAntiBot(chatId)
-  return 'تــم قفــل 🔒✅البــوتات \n👮تــم الامـر بواسطه '..msg.from.print_name..'\n🔻Order By @'.. msg.from.username..'\n' 
+  return 'تــم قفــل 🔒✅البــوتات \n'..'\n\n'..' 👮 MSG BY : @'..msg.from.username..'\n➖➖➖➖➖➖➖➖➖🙄ID MSG BY : '..msg.from.id..'\n➖➖➖➖➖➖➖➖➖🎩GROUP BY : '..msg.to.title..'\n'
   end
   if matches[1] == 'فتح البوتات' then
     disableAntiBot(chatId)
-  return 'تم ☑️ فتح 🔓 اضافه البوتات \n👮تــم الامـر بواسطه '..msg.from.print_name..'\n🔻Order By @'.. msg.from.username..'\n' 
+  return 'تـ﷽ـم فَتْحُ اضُافَُه الُبّوَتْاتْ\n'..'\n\n'..' 👮 MSG BY : @'..msg.from.username..'\n➖➖➖➖➖➖➖➖➖🙄ID MSG BY : '..msg.from.id..'\n➖➖➖➖➖➖➖➖➖🎩GROUP BY : '..msg.to.title..'\n'
   end
   if matches[1] == 'chat_add_user' or matches[1] == 'chat_add_user_link' then
     local user = msg.action.user or msg.from
