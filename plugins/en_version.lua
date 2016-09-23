@@ -1,9 +1,8 @@
 --[[ 
 ▀▄ ▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀▄▀▄▄▀▀▄▄▀▀▄▄▀▀▄▄▀▀ 
-▀▄ ▄▀                                      ▀▄ ▄▀ 
-▀▄ لتحذف حقوق بذمتك🚶🏻 
-      #CODS CREATED By ~ @JALAL_ALDON 
-      please join to Channel Oscar Team @OSCARBOTv2 
+▀▄ ▄▀                                      ▀▄ ▄▀
+       By ~ @sadikal-knani
+       @kingtele1 
 ▀▄ ▄▀                                      ▀▄ ▄▀ 
 ▀▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀▄▄▀▀▄▄▀▄▄▀▀ 
 --]] 
@@ -30,7 +29,7 @@ local jalal = msg['id']
     if matches[1] == 'قفل الوسائط'  and is_momod(msg) then 
                     local oscar = 'mate:'..msg.to.id 
                     redis:set(oscar, true) 
-                    local oscar1 = 'تــم قفــل 🔐✅الوســائط \n👮تــم الامـر بواسطه:- '..msg.from.print_name..'\n🔻Order By @'.. msg.from.username..'\n' 
+                    local oscar1 = 'تــم قفــل 🔐✅الوســائط .. \n'..'\n\n'..' 👮 MSG BY : @'..msg.from.username..'\n➖➖➖➖➖➖➖➖➖🙄ID MSG BY : '..msg.from.id..'\n➖➖➖➖➖➖➖➖➖🎩GROUP BY : '..msg.to.title..'\n'
 reply_msg(jalal, oscar1, ok_cb, true) 
 elseif matches[1] == 'قفل الوسائط' and not is_momod(msg) then 
 local asdy = 'للمشرفين فقط🔴' 
@@ -39,7 +38,7 @@ reply_msg(jalal, asdy, ok_cb, true)
     elseif matches[1] == 'فتح الوسائط'  and is_momod(msg) then 
       local oscar = 'mate:'..msg.to.id 
       redis:del(oscar) 
-    local don = 'تـ﷽ـمٌ فَتْحُ جْمٌيَْع الُوَسِائطِ\n👮تــم الامـر بواسطه  '..msg.from.print_name..'\n🔻Order By @'.. msg.from.username..'\n'  
+    local don = 'تـ﷽ـمٌ فَتْحُ جْمٌيَْع الُوَسِائطِ\n'..'\n\n'..' 👮 MSG BY : @'..msg.from.username..'\n➖➖➖➖➖➖➖➖➖🙄ID MSG BY : '..msg.from.id..'\n➖➖➖➖➖➖➖➖➖🎩GROUP BY : '..msg.to.title..'\n'
 reply_msg(jalal, don, ok_cb, true) 
 elseif matches[1] == 'قفل الوسائط' and not is_momod(msg) then 
 local jalal_aldon = 'للمشرفين فقط🔴' 
