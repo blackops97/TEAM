@@ -30,8 +30,6 @@ about_text = "ߔ藥lcome to TH3_Evil v5.0 For more information Subscribe to the 
     "endevs",
     "h1",
     "h2",
-    "h3",
-    "h4",
     "hsudo",
     "owners",
     "set",
