@@ -63,7 +63,7 @@ about_text = "lcome to KING_TELE \n DEV1: @ll_B5 \n DEV2: @sadikal_knani10 \n\n 
     data = "data/moderation.json"
   },
   sudo_users = {
-    241857359, 
+    284670491, 
     55197430,
   }
 }
