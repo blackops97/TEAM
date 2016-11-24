@@ -13,27 +13,27 @@ do
 local function run(msg,matches)
     if matches[1] == "chat_add_user"  then 
      local text = ' اهلا بك في المجموعه كبد حياتي 🙈💋'..'\n'..'\n'
-    ..'✳ اسمك :  '..msg.action.user.print_name..'\n'
-    ..'✳ معرفك : @'..(msg.action.user.username or "لا يوجد")..'\n'
-    ..'✳ الايدي : '..msg.action.user.id..'\n'
-    ..'✳رقم هاتفك : '..(msg.action.user.phone or "لا يوجد")..'\n'
-    ..'✳الي ضافك : '..msg.from.print_name..'\n'
-    ..'❇ معرف الي ضافك : @'..(msg.from.username or "لا يوجد")..'\n'
-    ..'❇ التاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
-    ..'❇ الوقت : '..os.date(' %T*', os.time())..'\n'  
+    ..'🦁 اسمـ☆ـك :  '..msg.action.user.print_name..'\n'
+    ..'🦁 معـ☆ـرفك : @'..(msg.action.user.username or "لا يوجد")..'\n'
+    ..'🦁 الايـ❃ـدي : '..msg.action.user.id..'\n'
+    ..'🦁 رقـم هاتـ❅ـفك : '..(msg.action.user.phone or "لا يوجد")..'\n'
+    ..'🦁 الـي ضـ❉ـافك : '..msg.from.print_name..'\n'
+    ..'🦁 معـ☆ـرف الـي ضـافك : @'..(msg.from.username or "لا يوجد")..'\n'
+    ..'📆 الـتاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
+    ..'🕧 الوقـت : '..os.date(' %T*', os.time())..'\n'  
      
      return reply_msg(msg.id, text, ok_cb, false)
      end
     if matches[1] == "chat_add_user_link" then
       local text = ' اهلا بك في المجموعه كبد حياتي 🙈💋'..'\n'..'\n'
-     ..'❇ اسمك :  '..msg.from.print_name..'\n'
-    ..'✳ معرفك : @'..(msg.from.username or "لا يوجد")..'\n'
-    ..'✳ الايدي : '..msg.from.id..'\n'
-    ..'❇رقم هاتفك : '..(msg.from.phone or "لا يوجد")..'\n'
-    ..'❇ اسم المجموعة : '..msg.to.title..'\n'
-    ..'❇ ايدي المجموعة : '..msg.to.id..'\n'
-    ..'❇ التاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
-    ..'❇ الوقت : '..os.date(' %T*', os.time())..'\n'  
+     ..'🦁 اسـ☆ـمك :  '..msg.from.print_name..'\n'
+    ..'🦁 معـ☆ـرفك : @'..(msg.from.username or "لا يوجد")..'\n'
+    ..'🦁 الايـ❃ـدي : '..msg.from.id..'\n'
+    ..'🦁رقـم هاتـ❆ـفك : '..(msg.from.phone or "لا يوجد")..'\n'
+    ..'🦁 اسـم المجـ❆ـموعة : '..msg.to.title..'\n'
+    ..'🦁 ايـدي المجـ❈ـموعة : '..msg.to.id..'\n'
+    ..'📆 الـتاريخ : '..os.date('!%A, %B %d, %Y*\n', timestamp)
+    ..'🕧 الوقـت : '..os.date(' %T*', os.time())..'\n'  
      
         return reply_msg(msg.id, text, ok_cb, false)
   end
