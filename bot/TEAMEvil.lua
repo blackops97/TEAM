@@ -264,7 +264,7 @@ function create_config( )
     about_text = [[TH3_Evil v5.0
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/blackops97/TH3_Evil
+https://github.com/blackops97/TEAMEvil
 Admins
 @TH3_Evil
 
