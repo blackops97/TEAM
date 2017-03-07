@@ -249,7 +249,7 @@ function create_config( )
     },
     sudo_users = {113644348},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TH3_Evil v6
+    about_text = [[TEAMEvil v6
 An advanced administration bot based on TG-CLI written in Lua
 
 https://github.com/blackops97/TEAMEvil
