@@ -215,17 +215,6 @@ function create_config( )
 "admin",
     "all",
     "anti_spam",
-    "ar-banhammer",
-    "ar-broadcast",
-    "ar-getfile",
-    "ar-help",
-    "ar-info",
-    "ar-lock-bot",
-    "ar-lock-fwd",
-    "ar-onservice",
-    "ar-plugins",
-    "ar-robot",
-    "ar_version",
     "arabic_lock",
     "setwelcome",
     "get",
@@ -236,32 +225,31 @@ function create_config( )
     "leave_ban",
     "msg_checks",
     "newgroup",
-    "@TH3_Evil",
-    "TH3_Evil",
-    "TH3_Evil1",
-    "TH3_Evil2",
-    "TH3_Evil3",
-    "TH3_Evil4",
-    "TH3_Evil5",
-    "TH3_Evil6",
-    "TH3_Evil7",
     "owners",
     "set",
     "stats",
-    "run",
-    "ar-getlink",
     "hello",
     "serverinfo",
-    "ar-me",
-    "ar-badword",
-    "en_version",
+    "version",
     "replay",
-    "ar-supergroup",
+    "supergroup",
+    "we",
+    "calc",
+    "ndf",
+    "plugins",
+    "me",
+    "info",
+    "robot",
+    "lock-fwd",
+    "lock-bot",
+    "broadcast",
+    "banhammer",
+    "badword"
 
     },
     sudo_users = {113644348},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TH3_Evil v5.0
+    about_text = [[TH3_Evil v6
 An advanced administration bot based on TG-CLI written in Lua
 
 https://github.com/blackops97/TEAMEvil
@@ -275,11 +263,8 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@TEAMEvil [arabic]
 
-Our website 
-http://teleseed.seedteam.org/
 ]],
     help_text_realm = [[
 Realm Commands:
