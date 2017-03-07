@@ -122,7 +122,7 @@ else
   fi
   fi
   
-  chmod 777 TH3_Evil.lua
+  chmod 777 TEAMEvil.lua
   
   #Adding some color. By @MehdiHS
    echo -e "\033[38;5;208m"
