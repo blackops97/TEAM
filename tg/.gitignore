@@ -4,7 +4,7 @@ Makefile
 aclocal.m4
 autom4te.cache
 config.h
-config.log
+config.log 
 config.status
 .idea/
 nbproject/
